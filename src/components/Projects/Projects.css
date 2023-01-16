@@ -6,7 +6,7 @@
     min-height: 100vh;
     overflow-x: hidden;
     padding: 2rem;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 
@@ -41,7 +41,7 @@
     justify-content: center;
     gap: 4.5rem;
     width: 100%;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 .projects--viewAll {
@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: flex-end;
     margin-top: 2rem;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 .projects--viewAll a button {

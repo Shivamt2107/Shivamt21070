@@ -2,13 +2,13 @@
     overflow: hidden;
     background-color: rgb(33, 33, 33);
     color: rgb(234, 234, 234);
-    border: 1px solid white;
+    /* border: 1px solid white; */
   }
   
   #githubID > div {
     width: 90%;
     margin: 30px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0px 0;
   }
   .heading{
@@ -18,10 +18,10 @@
     font-family: var(--primaryFont);
     text-align: center;
     color: rgb(182, 182, 182);
-    border: 1px solid white;
+    /* border: 1px solid white; */
   }
   .stats_container {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     justify-content: center;
     flex-direction: column;

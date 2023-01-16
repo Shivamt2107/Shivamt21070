@@ -5,29 +5,29 @@ import "./githubStats.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 // import { ThemeContext } from '../context/ThemeContext';
-import { useContext } from 'react';
-import { Box } from "@material-ui/core";
-import { FaCode, FaGit, FaGithub } from "react-icons/fa";
+// import { useContext } from 'react';
+// import { Box } from "@material-ui/core";
+// import { FaCode, FaGit, FaGithub } from "react-icons/fa";
 
-import { BiUserVoice } from "react-icons/bi";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+// import { BiUserVoice } from "react-icons/bi";
+// import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
-const selectLastHalfYear = (contributions) => {
-  const currentYear = new Date().getFullYear();
-  const currentMonth = new Date().getMonth();
-  const shownMonths = 12;
+// const selectLastHalfYear = (contributions) => {
+//   const currentYear = new Date().getFullYear();
+//   const currentMonth = new Date().getMonth();
+//   const shownMonths = 12;
 
-  return contributions.filter((day) => {
-    const date = new Date(day.date);
-    const monthOfDay = date.getMonth();
+//   return contributions.filter((day) => {
+//     const date = new Date(day.date);
+//     const monthOfDay = date.getMonth();
 
-    return (
-      date.getFullYear() === currentYear &&
-      monthOfDay > currentMonth - shownMonths &&
-      monthOfDay <= currentMonth
-    );
-  });
-};
+//     return (
+//       date.getFullYear() === currentYear &&
+//       monthOfDay > currentMonth - shownMonths &&
+//       monthOfDay <= currentMonth
+//     );
+//   });
+// };
 
 const GitHubStats = () => {
   useEffect(() => {
