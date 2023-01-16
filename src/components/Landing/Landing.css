@@ -12,7 +12,7 @@
   justify-content: center;
   height: 100%;
   position: relative;
-  border: 20px solid rgb(223, 254, 255);
+  /* border: 20px solid rgb(223, 254, 255); */
 }
 
 .landing--img {
@@ -48,7 +48,7 @@
   font-size: 35px;
   margin: 0 1rem;
   transition: transform 0.5s;
-  border: 5px solid white;
+  /* border: 5px solid white; */
 }
 
 .landing--social:hover {

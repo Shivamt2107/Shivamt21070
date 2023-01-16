@@ -20,7 +20,7 @@
     align-items: flex-start;
     justify-content: center;
     margin-left: 7%;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 .education-description > h1{
@@ -40,7 +40,7 @@
     border-radius: 20px;
     margin-bottom: 1.5rem;
     transition: background-color 200ms ease-in-out;
-    border: 5px solid teal;
+    /* border: 1px solid white; */
 }
 
 .educard-img {
@@ -92,7 +92,7 @@
 
 .education-image > img {
     width: 100%;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 
