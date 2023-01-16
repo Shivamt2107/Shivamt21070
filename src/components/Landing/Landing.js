@@ -164,7 +164,6 @@ function Landing() {
                         <h6>{headerData.title}</h6>
                         <h1 align="center">{headerData.name}{"   "}<img src= "https://media.tenor.com/images/2adfe94e69139f3e22623b61d375a7a7/tenor.gif" width= "30" height= "30" alt="shivam"/></h1>
                         <p>{headerData.desciption}</p>
-
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
                                 <a
