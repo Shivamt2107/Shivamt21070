@@ -22,6 +22,9 @@ export const blogData = [
         image:'https://c.tenor.com/sYLGkYSxrQ8AAAAC/meesho-buildforbharat.gif',
         url: 'https://medium.com/@jenytandel007/building-meesho-clone-website-22466a4c8051'
     },
+
+
+    
 ]
 
 

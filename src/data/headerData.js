@@ -1,4 +1,4 @@
-import shivam_gote_resume from '../assets/pdf/shivam_gote_resume.pdf'
+import Shivam_Gote_Resume from '../assets/pdf/Shivam_Gote_Resume.pdf'
 import shivam from '../assets/png/shivam.jpg'
 
 export const headerData = {
@@ -6,5 +6,5 @@ export const headerData = {
     title: "Full Stack Web Developer",
     desciption:'Ability is what you’re capable of doing. Motivation determines what you do. Attitude determines how well you do it.',
     image:shivam,
-    resumePdf: shivam_gote_resume,
+    resumePdf: Shivam_Gote_Resume,
 }

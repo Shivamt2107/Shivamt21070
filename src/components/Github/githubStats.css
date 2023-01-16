@@ -1,0 +1,56 @@
+#githubID {
+    overflow: hidden;
+    background-color: rgb(33, 33, 33);
+    color: rgb(234, 234, 234);
+    border: 1px solid white;
+  }
+  
+  #githubID > div {
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid red;
+    padding: 0px 0;
+  }
+  .heading{
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+    text-align: center;
+    color: rgb(182, 182, 182);
+    border: 1px solid white;
+  }
+  .stats_container {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    
+  }
+  
+  .stats_container > img {
+    /* max-width: 100%; */
+    width: 90%;
+    height: 250px;
+    /* border: 1px solid white; */
+    margin: 5px auto;
+  };
+ 
+
+  @media screen and (max-width: 1000px) {
+    #github_section > div {
+      width: 90%;
+      margin: auto;
+    }
+
+  }
+  @media screen and (max-width: 500px) {
+    #github_section > div {
+      width: 95%;
+      margin: auto;
+    }
+
+   
+  }

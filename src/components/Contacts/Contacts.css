@@ -5,6 +5,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
+    border: 5px solid white;
 }
 
 
@@ -14,6 +15,7 @@
     bottom: 0;
     width: 280px;
     pointer-events: none;
+    /* border: 1px solid red; */
 }
 
 .contacts--container {
@@ -25,13 +27,15 @@
     width: 80%;
     height: 100%;
     margin-top: 2rem;
+    border: 5px solid white;
+
 }
 
 .contacts--container > h1 {
     font-family: var(--primaryFont);
     font-size: 3.5rem;
     margin-bottom: 2.5rem;
-
+    border: 5px solid white;
 }
 
 .contacts-body {
@@ -40,12 +44,15 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
+    border: 5px solid white;
 }
 
 .contacts-form {
     display: flex;
     flex: 0.4;
     width: 100%;
+    border: 1px solid white;
+
 }
 
 .contacts-form form {
@@ -54,6 +61,8 @@
     align-items: flex-start;
     justify-content: space-evenly;
     width: 100%;
+    /* border: 1px solid white; */
+
 }
 
 .input-container {
@@ -145,6 +154,8 @@
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 2.5rem;
+    /* border: 1px solid white; */
+
 }
 
 .personal-details p {
@@ -165,6 +176,7 @@
     justify-content: center;
     gap: 1.5rem;
     margin-top: 4rem;
+    /* border: 1px solid white; */
 }
 
 
@@ -241,6 +253,7 @@
         width: 100%;
         gap: 1.5rem;
         margin-top: 2rem;
+        /* border: 1px solid white; */
     }
     .personal-details {
         margin-bottom: 1.8rem;

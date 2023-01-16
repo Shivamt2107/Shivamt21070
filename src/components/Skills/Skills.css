@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    border: 2px solid white;
 }
 
 .skillsHeader h2 {
@@ -19,6 +20,7 @@
     font-weight: bold;
     font-size: 3.5rem;
     text-align: center;
+    /* border: 2px solid white;/ */
 }
 
 .skillsContainer {
@@ -28,6 +30,8 @@
     width: 100%;
     margin-top: 3.5rem;
     padding: 0 2rem;
+    /* border: 2px solid white; */
+
 }
 
 .skill--scroll {
@@ -49,6 +53,8 @@
     justify-content: center;
     padding: 2rem 1rem;
     transition: 300ms ease-in-out;
+    border: 2px solid white;
+
 }
 
 .skill--box:hover  {
